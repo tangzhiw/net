@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+		    *{
+				padding:0;
+				margin:0;
+			}
+			.wrap{
+				height:100vh;
+				display:flex;
+				flex-direction:column;
+			}
+			.body{
+				font-size:20px;
+			}
+			.top{
+				height:150px;
+				background:#f2f2f2;
+			}
+			.top>p{
+				height:100%;
+				line-height:150px;
+				font-size:2em;
+				padding-left:450px;
+				font-weight: bold;
+			}
+			.content{
+				flex:1;
+			}
+			.wrap>.top>p>img{
+				height:70px;
+				width:70px;
+				margin:40px 20px;
+			}
+			.right{
+				float:right;
+			}
+			.wrap>.content>ul>li{
+				list-style: none;
+				height:120px;
+				display:flex;
+				position:relative;
+				border-bottom:1px solid #f2f2f2;
+			}
+			.wrap>.content>ul>li>.img{
+				width:120px;
+			}
+			.wrap>.content>ul>li>.img>img{
+				height:120px;
+				width:120px;
+			}
+			.wrap>.content>ul>li>.txt{
+				flex:1;
+				padding-left:20px;
+				font-size: 2em;
+				font-weight: bold;
+				line-height: 120px;
+			}
+			.wrap>.content>.a{
+				height:20px;
+				background: #f2f2f2;
+			}
+			.wrap>.content>.a>p{
+				line-height:20px;
+				padding-left:12px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="top">
+				<p>
+					通讯录
+					<img src="img/添加.svg" alt="图" class="right" />
+					<img src="img/搜索.svg" alt="图" class="right" />
+				</p>
+				
+			</div>
+			<div class="content">
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/添.svg" alt="图">
+						</div>
+						<div class="txt">
+							<p>新的朋友</p>
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/037-群聊设置.svg" alt="图">
+						</div>
+						<div class="txt">
+							<p>群聊</p>
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/标签_o.svg" alt="图">
+						</div>
+						<div class="txt">
+							<p>标签</p>
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/公众号.svg" alt="图">
+						</div>
+						<div class="txt">
+							<p>公众号</p>
+						</div>
+					</li>
+				</ul>
+				<div class="a">
+					<p>我的企业及企业联系人</p>
+				</div>
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/企业微信.svg" alt="图">
+						</div>
+						<div class="txt">
+							<p>企业微信联系人</p>
+						</div>
+					</li>
+				</ul>
+				<div class="a">
+					<p>星标朋友</p>
+				</div>
+				
+				<div class="a">
+					<p>m</p>
+				</div>
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/马云.jpg" alt="图">
+						</div>
+						<div class="txt">
+							<p>马云</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

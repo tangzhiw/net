@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+		   *{
+			   padding:0;
+			   margin:0;
+		   }
+		   .wrap{
+		   	height:100vh;
+		   	display:flex;
+		   	flex-direction:column;
+		   }
+		   .body{
+		   	font-size:20px;
+		   }
+		   .top{
+		   	height:300px;
+		   	border-bottom:10px solid #f2f2f2;
+		   }
+		   .wrap>.top{
+		   	list-style: none;
+		   	height:300px;
+		   	display:flex;
+		   	position:relative;
+		   }
+		   .wrap>.top>.img{
+		   	width:130px;
+			position: absolute;
+			top:85px;
+			left:100px;
+		   }
+		   .wrap>.top>.img>img{
+		   	height:130px;
+		   	width:130px;
+		   }
+		   .wrap>.top>.txt>p:nth-child(1){
+		   	font-size:2em;
+		   }
+		   .wrap>.top>.txt>p:nth-child(2){
+		   	font-size:1.5em;
+		   }
+		   .wrap>.content>ul>li>.txt{
+		   	flex:1;
+		   	padding-left:20px;
+		   	font-size: 2em;
+		   	font-weight: bold;
+		   	line-height: 70px;
+		   }
+		   .content{
+		   	flex:1;
+		   }
+		   .wrap>.top>.txt{
+			   position:absolute;
+			   top:100px;
+			   left:260px;
+		   }
+		   .right{
+		   	float:right;
+		   }
+		   .wrap>.content>ul>li{
+		   	list-style: none;
+		   	height:70px;
+		   	display:flex;
+		   	position:relative;
+		   	border-bottom:1px solid #f2f2f2;
+		   }
+		   .wrap>.content>ul>li>.img{
+		   	width:70px;
+		   }
+		   .wrap>.content>ul>li>.img>img{
+		   	height:70px;
+		   	width:70px;
+		   }
+		   .wrap>.content>ul>li>.txt{
+		   	flex:1;
+		   	padding-left:20px;
+		   	font-size: 2em;
+		   	font-weight: bold;
+		   	line-height: 70px;
+			
+		   }
+		   .wrap>.content>.a{
+		   	height:10px;
+		   	background: #f2f2f2;
+		   }
+		   .wrap>.content>.a>p{
+		   	line-height:10px;
+		   	padding-left:12px;
+		   }
+		   .wrap>.content>ul>li>.img>img:nth-child(2){
+			   position: absolute;
+			   right:30px;
+		   }
+		   .wrap>.top>.b{
+			   position: absolute;
+			   top:200px;
+			   right:20px;
+		   }
+		   .wrap>.content>.a{
+		   	height:10px;
+		   	background: #f2f2f2;
+		   }
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="top">
+				<div class="img">
+					<img src="img/头像.jpg" alt="图">
+				</div>
+				<div class="txt">
+					<p><b>兔子王</b></p>
+					<p>微信号:</p>
+					<div></div>
+					<p>wxid_ku5nvsbj1nc522</p>
+				</div>
+				<div class="b">
+					<img src="img/bg-qrCode.svg" height=40px >
+					<img src="img/进入箭头.svg" height=40px >
+				</div>
+			</div>
+			<div class="content">
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/微信支付.svg" alt="图">
+							<img src="img/进入箭头.svg" alt="图" class="right">
+						</div>
+						<div class="txt">
+							<p>支付</p>
+						</div>
+					</li>
+				</ul>
+				<div class="a"></div>
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/收藏.svg" alt="图">
+							<img src="img/进入箭头.svg" alt="图" class="right">
+						</div>
+						<div class="txt">
+							<p>收藏</p>
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/图片 (1).svg" alt="图">
+							<img src="img/进入箭头.svg" alt="图" class="right">
+						</div>
+						<div class="txt">
+							<p>朋友圈</p>
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/卡包.svg" alt="图">
+							<img src="img/进入箭头.svg" alt="图" class="right">
+						</div>
+						<div class="txt">
+							<p>卡包</p>
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/笑脸.svg" alt="图">
+							<img src="img/进入箭头.svg" alt="图" class="right">
+						</div>
+						<div class="txt">
+							<p>表情</p>
+						</div>
+					</li>
+				</ul>
+				<div class="a"></div>
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/设置.svg" alt="图">
+							<img src="img/进入箭头.svg" alt="图" class="right">
+						</div>
+						<div class="txt">
+							<p>设置</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

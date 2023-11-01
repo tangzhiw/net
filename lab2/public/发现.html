@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+		   *{
+			   padding:0;
+			   margin:0;
+		   }
+		   .wrap{
+		   	height:100vh;
+		   	display:flex;
+		   	flex-direction:column;
+		   }
+		   .body{
+		   	font-size:20px;
+		   }
+		   .top{
+		   	height:150px;
+		   	background:#f2f2f2;
+		   }
+		   .top>p{
+		   	height:100%;
+		   	line-height:150px;
+		   	font-size:2em;
+		   	padding-left:450px;
+		   	font-weight: bold;
+		   }
+		   .content{
+		   	flex:1;
+		   }
+		   .wrap>.top>p>img{
+		   	height:70px;
+		   	width:70px;
+		   	margin:40px 20px;
+		   }
+		   .right{
+		   	float:right;
+		   }
+		   .wrap>.content>ul>li{
+		   	list-style: none;
+		   	height:70px;
+		   	display:flex;
+		   	position:relative;
+		   	border-bottom:1px solid #f2f2f2;
+		   }
+		   .wrap>.content>ul>li>.img{
+		   	width:70px;
+		   }
+		   .wrap>.content>ul>li>.img>img{
+		   	height:70px;
+		   	width:70px;
+		   }
+		   .wrap>.content>ul>li>.txt{
+		   	flex:1;
+		   	padding-left:20px;
+		   	font-size: 2em;
+		   	font-weight: bold;
+		   	line-height: 70px;
+		   }
+		   .wrap>.content>.a{
+		   	height:10px;
+		   	background: #f2f2f2;
+		   }
+		   .wrap>.content>.a>p{
+		   	line-height:10px;
+		   	padding-left:12px;
+		   }
+		   .wrap>.content>ul>li>.img>img:nth-child(2){
+			   position: absolute;
+			   right:30px;
+		   }
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="top">
+				<p>
+					发现
+					<img src="img/添加.svg" alt="图" class="right" />
+					<img src="img/搜索.svg" alt="图" class="right" />
+				</p>
+				
+			</div>
+			<div class="content">
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/朋友圈.svg" alt="图">
+							<img src="img/进入箭头.svg" alt="图" class="right">
+						</div>
+						<div class="txt">
+							<p>朋友圈</p>
+						</div>
+					</li>
+				</ul>
+				<div class="a"></div>
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/微信图片_20220116115939.jpg" alt="图">
+							<img src="img/进入箭头.svg" alt="图" class="right">
+						</div>
+						<div class="txt">
+							<p>视频号</p>
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/直播资源(1).svg" alt="图">
+							<img src="img/进入箭头.svg" alt="图" class="right">
+						</div>
+						<div class="txt">
+							<p>直播</p>
+						</div>
+					</li>
+				</ul>
+				<div class="a"></div>
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/扫一扫、扫码-05(1).svg" alt="图">
+							<img src="img/进入箭头.svg" alt="图" class="right">
+						</div>
+						<div class="txt">
+							<p>扫一扫</p>
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/摇一摇(1).svg" alt="图">
+							<img src="img/进入箭头.svg" alt="图" class="right">
+						</div>
+						<div class="txt">
+							<p>摇一摇</p>
+						</div>
+					</li>
+				</ul>
+				<div class="a"></div>
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/看一看(1).svg" alt="图">
+							<img src="img/进入箭头.svg" alt="图" class="right">
+						</div>
+						<div class="txt">
+							<p>看一看</p>
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/搜一搜 (1).svg" alt="图">
+							<img src="img/进入箭头.svg" alt="图" class="right">
+						</div>
+						<div class="txt">
+							<p>搜一搜</p>
+						</div>
+					</li>
+				</ul>
+				<div class="a"></div>
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/附近活动(1).svg" alt="图">
+							<img src="img/进入箭头.svg" alt="图" class="right">
+						</div>
+						<div class="txt">
+							<p>附近</p>
+						</div>
+					</li>
+				</ul>
+				<div class="a"></div>
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/少购物(1).svg" alt="图">
+							<img src="img/进入箭头.svg" alt="图" class="right">
+						</div>
+						<div class="txt">
+							<p>购物</p>
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/game.jpg" alt="图">
+							<img src="img/进入箭头.svg" alt="图" class="right">
+						</div>
+						<div class="txt">
+							<p>游戏</p>
+						</div>
+					</li>
+				</ul>
+				<div class="a"></div>
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/小程序(1).svg" alt="图">
+							<img src="img/进入箭头.svg" alt="图" class="right">
+						</div>
+						<div class="txt">
+							<p>小程序</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

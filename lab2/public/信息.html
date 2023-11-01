@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+		    .wrap{
+				display:flex;
+				flex-direction:column;
+				height:100vh;
+			}
+			*{
+				padding:0;
+				margin:0;
+			}
+			.body{
+				font-size:20px;
+			}
+			.wrap>.top>p{
+				font-size:2em;
+				height:100%;
+				line-height:150px;
+				font-weight: bold;
+				padding-left:450px;
+			}
+			.wrap>.top{
+				height:150px;
+				background:#f2f2f2;
+				
+			}
+			.wrap>.content{
+				flex:1;
+			}
+			.wrap>.top>p>img{
+				height:70px;
+				width:70px;
+				margin:40px 20px;
+			}
+			.right{
+				float:right;
+			}
+			.wrap>.content>ul>li{
+				list-style:none;
+				height:120px;
+				border-bottom:1px solid #f2f2f2;
+				display:flex;
+				position:relative
+			}
+			.wrap>.content>ul>li>.img{
+				width:120px;
+			}
+			.wrap>.content>ul>li>.img>img{
+				height:120px;
+				width:120px;
+			}
+			.wrap>.content>ul>li>.txt{
+				flex:1;
+				padding:20px;
+			}
+			.wrap>.content>ul>li>.txt>p:nth-child(1){
+				font-size:2em;
+			}
+			.wrap>.content>ul>li>.txt>p:nth-child(2){
+				font-size:1.5em;
+			}
+			.wrap>.content>ul>li>.date{
+				position:absolute;
+				top:20px;
+				right:10px;
+				font-size:2em;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="top">
+				<p>
+					微信
+					<img src="img/添加.svg" alt="图" class="right" />
+				    <img src="img/搜索.svg" alt="图" class="right" />
+				</p>
+			</div>
+			<div class="content">
+				<ul>
+					<li>
+						<div class="img">
+							<img src="img/马云.jpg"/>
+						</div>
+						<div class="txt">
+							<p><b>马云</b></p>
+							<p>年轻人，我看好你，来阿里巴巴工作吗</p>
+						</div>
+						<div class="date">
+							13:10
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<img src="img/头像.jpg"/>
+						</div>
+						<div class="txt">
+							<p><b>汤志文 2111441 物联网工程</b></p>
+							<!-- <audio controls>
+							    <source src="1.mp3" type="audio/mpeg">
+							    Your browser does not support the audio element.
+							</audio> -->
+							
+						</div>
+						
+						<div class="date">
+							12:30
+						</div>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+	</body>
+</html>

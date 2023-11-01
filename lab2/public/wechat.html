@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>计算机网络 work2</title>
+		<style>
+		    *{
+				padding:0;
+				margin:0;
+			}
+			body{
+				font-size:20px;
+			}
+			a{
+				color:#000;
+				text-decoration: none;
+			}
+			.left{
+				float:left;
+			}
+			.right{
+				float:right;
+			}
+			.wrap{
+				display:flex;
+				flex-direction:column;
+				height:100vh;
+			}
+			.wrap>.content{
+				flex:1;
+				margin-top: 60px;
+			}
+			.wrap>.content>iframe{
+				height:100%;
+				width:100%;
+				border:0;
+			}
+			.wrap>.menu{
+				height:150px;
+				display:flex;
+				align-items:center;
+				background:#f2f2f2;
+			}
+			.wrap>.menu>div{
+				flex:1;
+				text-align:center;
+			}
+			.wrap>.menu>div>a>img{
+				width:70px;
+				height:70px;
+			}
+			.wrap>.menu>div>a>p{
+				font-size:1.5em;
+			}
+			.top{
+				height:60px;
+				width:100vw;
+				box-sizing: border-box;
+				position: fixed;
+			}
+			.top>img{
+				height:40px;
+				width:40px;
+				padding:10px;
+			}
+			.top>p{
+				line-height: 60px;
+				font-size:1.3em
+			}
+		</style>
+	</head>
+	<body>
+		<div class="top">
+			<img src="img/信号.svg" alt="图" class="left"/>
+			<img src="img/信号.svg" alt="图" class="left"/>
+			<img src="img/网络.svg" alt="图" class="left"/>
+			<img src="img/电池.svg" alt="图" class="right"/>
+			<img src="img/闹铃.svg" alt="图" class="right"/>
+			<p class="right" >13:15</p>
+		</div>
+		<div class="wrap">
+			<div class="content">
+				<iframe name="myframe" src="信息.html"></iframe>
+			</div>
+			<div class="menu">
+				<div>
+					<a href="信息.html" target="myframe">
+						<img alt="图" src="img/微信信息.svg"/>
+						<p>信息</p>
+					</a>
+				</div>
+				<div>
+					<a href="通讯录.html" target="myframe">
+						<img alt="图" src="img/通讯录.svg"/>
+						<p>通讯录</p>
+					</a>
+				</div>
+				<div>
+					<a href="发现.html"  target="myframe">
+						<img alt="图" src="img/发现.svg"/>
+						<p>发现</p>
+					</a>
+				</div>
+				<div>
+					<a href="我.html" target="myframe">
+						<img alt="图" src="img/我.svg"/>
+						<p>我</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
